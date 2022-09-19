@@ -1,0 +1,70 @@
+
+#navegacion{
+	z-index: 10;
+	position: fixed;
+	top: 0; left: 0;
+	width: 100%;
+	height: 2em;
+	background-color: #233142;
+	margin: 0 auto;
+
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+header{
+	padding-top: 3em;
+}
+
+#Inicio , #Proyectos , #Contacto {
+	position: relative;
+	width: 100%; height: 100vh;
+	padding-top: 2em;
+
+}
+
+#nav-2 li {
+	list-style: none;
+	height: 100%;
+	float: left;
+	font-size: 0.5em;
+	padding: 0.3em;
+	width: calc(50%/3);
+
+}
+
+#nav-2{
+	width: 50%;
+}
+
+span{
+	color: #e3e3e3;
+}
+
+body{
+	background-color: #455d7a;
+	font-size: 2.5em;
+	font-family: 'Monserrat' ;
+
+}
+
+button{
+	background-color: #f95959;
+	font-size: 0.45em;
+	border-radius: 0.7em;
+	padding: 0.2em  0.2em;
+	float: right;
+	width: 30%;
+
+}
+
+#curriculum{
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	width: 50%;
+
+}
+
+
